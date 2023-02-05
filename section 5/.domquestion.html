@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+
+<button onclick="myFunction()">Change</button>
+<p id="myP">Click "Change" to font size.</p>
+
+<div class="background_color">
+    <p>Try try again until you will succeed.</p>
+  </div>
+
+
+
+<div id="target">
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, veniam.</p>
+</div>
+
+<p class="query_1"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, provident!</p>
+
+<p class="query_all">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, odio!</p>
+  
+<script>
+function myFunction() {
+  const element = document.getElementById("myP");
+  element.style.fontSize = "20px";
+}
+const color = document.getElementsByClassName("background_color");
+color[0].style.backgroundColor = "purple";
+
+const element = document.getElementById("target");
+const nodes = element.getElementsByTagName("p");
+
+document.querySelector(".query_1").style.backgroundColor = "red";
+
+
+const query = document.querySelectorAll(".query_all");
+for (let i = 0; i < query.length; i++) {
+  query[i].style.backgroundColor = "red";
+}
+</script>
+</body>
+</html>

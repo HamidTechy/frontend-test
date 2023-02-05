@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .heading{
+        color: white;
+        border: 1px solid #d77647;
+        font-size: 80px;
+        text-align: center;
+        padding: 10px 20px 25px 20px;
+      margin: auto;
+        width: 530px;
+    
+    }
+    .head_contain{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card{
+        width: 19rem;
+        box-shadow: 0 0 7px 2px rgba(0,0,0,0.5);
+        border-radius: 15px;
+        background-color: #d77647;
+        color: white;
+        text-align: center;
+    }
+    .card-text{
+    font-style: italic;
+    font-size: 14px;
+    }
+    .fa-solid.fa-cart-shopping{
+        margin-top: 0!important;
+        color: black;
+        font-size: 16px;
+    }
+    .btn-primary{
+        background-color: #FAF3ED;
+        color: black;
+        font-size: 14px;
+        border: none!important;
+        outline: none!important;
+        padding: 10px 20px;
+    }
+    .btn-primary:hover{
+        background-color: #d77647;
+        color: white;
+        border: 2px solid #FAF3ED!important;
+    }
+    .btn-primary:hover .fa-solid.fa-cart-shopping {
+        
+        color: white!important;
+    }
+    
+    body{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .card-img-top{
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    
+    
+    .shadow {
+      background-color: rgba(0, 0, 0, 0.6);
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      height: 0px;
+      display: none;
+      text-align: center;
+    }
+    
+    .card-img:hover > .shadow {
+      display: block;
+      height: 150px;
+    }
+    .fa-solid {
+      color: white;
+      font-size: 25px;
+      margin-left: 10px;
+      margin-top: 115px;
+    }
+    
+    
+    @media screen and (max-width:767px){
+        .heading {
+           
+            font-size: 50px;
+           
+            padding: 10px 20px 18px 20px;
+            width: 320px;
+        }
+        #main{
+            height: 300px!important;
+           
+            background-position: center;
+        }
+        .card{
+            width: 100%;
+        }
+    }
+    </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+   <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+   </div>
+
+   <section id="main" style="background-image: url(./assets/header_bg.jpg);height: 500px;display: flex; background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;"> <div class="container head_contain">
+    <div class="row">
+        <div class="col">
+           <div>
+            <h1 class="heading">Restaurant</h1>
+           </div>
+        </div>
+       </div>
+ </div>
+   </section>
+
+
+
+<section class="pb-3" style="background-color: #FAF3ED;">
+    <div class="container">
+        <div class="row pt-3 position-relative">
+            <div class="col text-center">
+                <h1 class="position-absolute top-50 start-50" style="transform: translate(-50%,-10%);">OUR MENU</h1>
+                <img src="gettyimages-1081422898-612x612.png" class="img-fluid" alt="">
+            </div>
+            
+        </div>
+        
+    </div>
+</section>
+
+
+<section class="mt-3 mb-5  pb-5" style="background-image: url(photo-1590846406792-0adc7f938f1d.jpg); background-repeat: repeat">
+    <div class="container">
+
+
+
+
+        <div class="row pt-3">
+            <div class="col-md-3 mt-md-0 mt-3">
+                <div class="card" >
+                   <div class="position-relative card-img">
+                    <img src=".images.jpg" class="card-img-top" alt="...">
+                    <div class="shadow">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-solid fa-heart"></i>
+                      </div>
+                   </div>
+                  
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i> PLACE ORDER</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3 mt-md-0 mt-3">
+                <div class="card" >
+                    
+                    <div class="position-relative card-img">
+                        <img src="restaurant-16866439.jpg" class="card-img-top" alt="...">
+                        <div class="shadow">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-solid fa-heart"></i>
+                          </div>
+                       </div>
+                    
+                 
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary"> <i class="fa-solid fa-cart-shopping"></i> PLACE ORDER</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3 mt-md-0 mt-3">
+                <div class="card" >
+                    <div class="position-relative card-img">
+                        <img src="photo-1517248135467-4c7edcad34c4.jpg" class="card-img-top" alt="...">
+                        <div class="shadow">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-solid fa-heart"></i>
+                          </div>
+                       </div>
+
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i> PLACE ORDER</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3 mt-md-0 mt-3">
+                <div class="card" >
+                    <div class="position-relative card-img">
+                        <img src="photo-1552566626-52f8b828add9.jpg" class="card-img-top" alt="...">
+                        <div class="shadow">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <i class="fa-solid fa-heart"></i>
+                          </div>
+                       </div>
+                 
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i> PLACE ORDER</a>
+                    </div>
+                  </div>
+            </div>
+       
+        </div>
+       
+    </div>
+</section>
+
+    </div>
+  </body>
+</html>

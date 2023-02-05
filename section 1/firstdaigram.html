@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Daigram</title>
+    <style>
+            *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .maincontainer{
+        width: 1200px;
+        height: 560px;
+        border: 2px solid palevioletred;
+        position: relative;
+    }
+    
+    #main{
+        width: 1200px;
+        height: 50px;
+        background-color: rgb(156, 152, 156);
+
+    }
+    #header{
+        width: 1200px;
+        height: 100px;
+        background-color: rgb(156, 215, 238);
+    }
+    #navbar{
+       width: 1200px;
+       height: 50px;
+       background-color: rgb(197, 195, 195);
+    }
+
+    .box1{
+        width: 800px;
+        height: 500px;
+        border: 2px solid red;
+        position: absolute;
+        top:50px;
+        left: 200px;
+    }
+   
+    #header2{
+    width: 785px; 
+    height: 100px;
+    border: 2px solid yellow;
+    margin: 5px 5px;
+    }
+
+    #innerbox1{
+        display: flex;
+        gap: 5px;
+    }
+.bordergreen{
+    border: 3px solid green;
+    width: 70%;
+    margin-left: 5px ;
+    height: 375px;
+}
+.borderorange{
+    border: 3px solid orange;
+    width: 30%;
+    margin-right: 5px;
+    height: 375px;
+}
+.borderblue{
+    border: 3px solid blue;
+    width: 97%;
+    height: 190px;
+    margin-left: 4px;
+    margin-top: 32%;
+
+}
+
+.purpborder1{
+    border: 3px solid purple;
+    width: 95%;
+    height:93px; ;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.purpborder2{
+    border: 3px solid purple;
+    width: 95%;
+    height:93px;
+    margin-top: 5px; 
+    margin-left: 5px;
+}
+.purpborder3{
+    border: 3px solid purple;
+    width: 95%;
+    height:93px; 
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.footer{
+    margin-top: 5px;
+    width: 1200px;
+    height: 100px;
+    background-color: grey;
+    border: 3px solid aqua;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footerborder{
+    width: 1000px;
+    height: 85px;
+    border: 3px solid yellowgreen;
+    margin-top: 5px;
+}
+    </style>
+    
+</head>
+<body>
+    <div class="maincontainer">
+        <div id="main"></div>
+        <div id="header"></div>
+        <div id="navbar"></div>
+
+        <div class="box1">
+            <div id="header2"></div>
+            <div id="innerbox1">
+                <div class="bordergreen">
+                    <div class="borderblue"></div>
+                </div>
+                <div class="borderorange">
+                    <div class="purpborder1"></div>
+                    <div class="purpborder2"></div>
+                    <div class="purpborder3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footerborder"></div>
+    </div>
+
+
+</body>
+</html>
